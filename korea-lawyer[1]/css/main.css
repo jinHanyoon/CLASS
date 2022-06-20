@@ -1,0 +1,275 @@
+#wrap{width: 100%;}
+/* 상단 */
+#header{float: left; 
+        width: 100%; height: 110px;}
+#header_in{margin: 0 auto;
+        width: 1150px; height: 110px;}
+#header_in .logo{ 
+        float: left;
+        width: 240px; height: 110px;
+        padding:45px 0 0 0;
+        box-sizing: border-box;}
+#header_in .main_nav{float: left; padding-top:50px ; }        
+#header_in .main_nav li{float: left; 
+                        margin-right: 40px;}
+#header_in .main_nav li:last-child{margin-right: 0;}
+#header_in .main_nav a{font-size: 20px; 
+                       font-weight: 300;
+                       color: black;}
+#header_in .main_nav a:hover{color: #ccc;}
+#header_in .info{float: right; padding-top: 30px;
+                 box-sizing: border-box;}
+#header_in .info_mn li{float: left; 
+                       border-right:1px solid #555;
+                       line-height:10px;
+                       padding-right: 10px; margin-right: 10px;}
+#header_in .info_mn li a{font-size: 13px; color: #555;}
+#header_in .info_mn li a:hover{text-decoration: underline;}
+#header_in .info_mn li:last-child{border-right:0;
+                               padding-left: 0;
+                               margin-right: 0;}
+#header_in .info .input{margin: 20px 0 0 60px;
+                         width: 235px; height: 30px;
+                         border:1px solid #000; }
+#header_in .info .input >a{float: right;}                             
+
+#wrap > section{float: left; width: 100%; height:800px}
+#wrap > section > article{ 
+               margin: 0 auto;
+               width: 1150px; height: 800px;
+               background-color: white;}
+#wrap > section header{width: 100%; height: 280px;
+                       background-color: teal;
+                       padding-top:80px;
+                       box-sizing:border-box; }
+#wrap > section header h3{text-align: center;}
+#wrap > section header p{margin-top: 20px; text-align: center;}
+#wrap > section section{
+                      width: 100%; height: 520px;
+                      background-color: rgb(141, 197, 197);
+}
+
+/* 법률상담 */
+#advice{background:url(../images/bg_main_sect1.jpg) no-repeat 50% 0;}
+#advice .l_img{float: left;
+               width:460px; height:500px;
+               background-color: yellow;
+               border-radius:5px;
+               overflow: hidden;}
+#advice .group{float: right;
+                width:680px; height:500px;
+                }
+#advice .list_mn{width: 680px; height:250px;}  
+#advice .list_mn > li{float: left; margin-right: 10px;
+                      width:220px; height:250px;
+                      text-align: center;
+                      border-radius: 5px;}
+#advice .list_mn > li:nth-child(1){background-color: rgba(127, 217, 255, 1);}
+#advice .list_mn > li:nth-child(2){background-color: rgba(67, 148, 180, 1);}
+#advice .list_mn > li:nth-child(3){background-color: rgba(38, 50, 218, 1);}
+#advice .list_mn > li:last-child{margin-right: 0px;}
+#advice .list_mn > li h4{font-size: 24px; color: #fff;
+                         padding: 35px 0 15px;}
+/* #advice .list_mn > li img{} */
+#advice .list_mn > li p{
+                  padding-top: 15px;
+                  font-size: 16px; color: #fff;}
+
+#advice .ask{margin-top: 10px; 
+             width: 680px; height:240px;
+             background-color: aliceblue;}
+#advice .ask_head{width: 100%; height: 50px;
+                  background-color: #ccc;}
+#advice .ask_head >h4{float:left; 
+                padding-left: 30px; line-height:50px;
+                font-size: 16px; color:#fff;}
+#advice .ask_head >ul{float:right; margin-top:19px; }
+#advice .ask_head >ul li{float: left; padding:0 5px;}
+#advice .ask_body{margin-top: 60px; width: 100%;}
+#advice .ask_body li{float: left; width: 20%; 
+                     border-right: 1px solid #ccc;
+                     box-sizing: border-box;
+                     text-align:center;}
+#advice .ask_body li:last-child{border-right: 0px;}
+#advice .ask_body li p{margin-top: 10px; font-size: 15px; 
+                       font-weight: 900;}
+/* 변호사검색 */
+#search{background-color: turquoise;}
+#search .search_left{
+width: 650px; height: 515px;
+background-color: #555;}
+#search .search_input{background-color: aliceblue;
+width: 650px; height: 200px;}
+#search .search_input h4{
+        background-color: gold;
+        height: 30px;
+        font-size: 15px;
+        padding :15px 0 0 10px;    
+}
+#search .search_input p{
+font-size: 14px;
+margin: 30px 0 0 10px;
+}
+#search .search_select{
+        font-size: 15px;
+        margin: 10px 0 0 10px;
+        box-sizing: border-box;
+        
+}
+#search .search_select select{
+        height: 40px;
+        width: 150px;
+}
+
+#search .search_select button{
+        height: 40px;
+        width: 150px;
+        margin-left: 10px;
+        background-color: orangered;
+        color: white;
+        border: 0px solid orangered;
+}
+
+#search .search_list{float: left;
+background-color: aqua; width: 650px;
+height: 300px;
+margin-top: 10px;}
+#search .search_list >li{float: left;
+width: 210px;
+height: 280px;
+padding-top: 20px;
+font-size: 25px;
+
+text-align: center;}
+#search .search_list >li:nth-child(1){
+        background-color: aliceblue;
+        margin-right: 10px;
+        font-weight: 600;
+}
+#search .search_list >li:nth-child(2){
+        background-color: aquamarine;
+        font-weight: 600;
+        
+}
+#search .search_list >li:nth-child(3){
+        background-color: beige;
+        margin-left: 10px;
+        font-weight: 600;
+
+}
+#search{float: left;}
+#search .search_right{
+        background:url(../images/bg_banner_sect2.jpg);
+        float: right;
+        width: 200px;
+        height: 300px;
+}
+
+#search .search_right img{
+        float: right;
+}
+
+/* 뉴스&지식 */
+#news{background:url(../images/bg_main_sect3.jpg) no-repeat 50% 0;}
+#news .news_b_top{width:100%; height:360px;}
+#news .l_img{float: left;}
+#news .list{float: right;}
+#news .list >li{float: left; margin-right: 10px;
+                width: 247px; height:360px;
+                background-color: #fff;}
+#news .list >li:last-child{margin-right:0;}
+#news .list >li:nth-child(1) .img_box{width:100%; height:165px;
+                         background: url(../images/img01.jpg);
+                         background-size: 100%;}
+#news .list >li:nth-child(2) .img_box{width:100%; height:165px;
+                         background: url(../images/img02.jpg);
+                         background-size: 100%;}                         
+#news .list >li:nth-child(3) .img_box{width:100%; height:165px;
+                         background: url(../images/img03.jpg);
+                         background-size: 100%;}
+#news .list >li figcaption{padding: 20px 20px 0 20px;}                        
+#news .list >li .ttl{font-size:17px;}
+#news .list >li .txt{margin-top: 15px;margin-bottom: 20px; font-size:13px; }
+#news .list >li .date{ font-size:12px;}
+#news .list >li .sort{font-size:11px;
+                      color:turquoise; 
+                      font-weight: 900;}                          
+
+#news .news_info{ margin-top:10px;
+                  width: 100%; height:150px;}
+#news .news_info > li{ 
+                  float: left; margin-right: 10px; 
+                  width: 370px; height:150px;
+                  padding: 20px 25px 0 25px;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                  box-sizing: border-box;}
+#news .news_info > li:nth-child(1){
+                  background: url(../images/ico_kin.png) no-repeat 260px 20px;
+                  background-color: #fff; }  
+#news .news_info > li:nth-child(2){
+                  background: url(../images/ico_dictionary.png) no-repeat 260px 20px;
+                  background-color:  #fff;}         
+#news .news_info > li:nth-child(3){
+                  width: 390px; 
+                  margin-right: 0px;
+                  background-color:  #fff;;
+}
+#news .news_info h4{font-size: 18px; color: #000;}
+#news .news_info p{margin-top: 20px; font-size: 13px;
+                   line-height:1.5;}
+#news .news_info > li:nth-child(3) > h4{ margin-bottom:10px ;}                   
+#news .news_info > li input{ width: 90px; height: 22px;
+                             border:1px solid #ccc;}  
+#news .news_info > li select{ width: 110px; height: 24px;
+                           border:1px solid #ccc}                   
+#news .news_info > li label{font-size:13px; color: rgb(98, 98, 98);}
+#news .news_info > li .checkbox{width:13px; height: 13px;  border:1px solid #ccc;
+                                vertical-align:text-bottom;}
+/* 커뮤니티 */
+#board{background-color:wheat;}
+
+/* 하단 */
+#footer{float: left;
+        width: 100%; height:250px;}
+#footer .service_go{width: 100%; height: 45px;
+                    background-color: #ccc;
+                    border-top:1px solid #555;
+                    border-bottom:1px solid #555;}
+#footer .service_in{margin: 0 auto; 
+                    width: 1150px; height: 45px; 
+                    }
+#footer .service_in a{float: left; display: block; 
+                      width: 255px; height: 44px; 
+                      padding: 14px 25px;
+                      box-sizing: border-box;
+                      color: #fff;
+                      background-color: rgb(140, 140, 140);}  
+#footer .service_in img{vertical-align: text-bottom;}        
+#footer .footer_in{margin: 0 auto; 
+                   width: 1150px; height: 205px;}  
+#footer .left{float: left; width: 700px; padding-top: 30px;}     
+#footer .info_mn{float: left;}
+#footer .info_mn li{float: left; 
+                    margin-right: 15px; padding-right: 10px;
+                    border-right: 1px solid #ccc;
+                    line-height: 15px;}
+#footer .info_mn li a{font-size: 15px;}
+#footer .info_mn li:last-child{
+        margin-right: 0px; padding-right: 0px;
+        border-right: 0px;
+}
+#footer .address{float: left; margin-top: 20px; 
+                 width: 100%; height: 60px; 
+                 font-style: normal;
+                 background-color: burlywood;
+                 }
+#footer .msg{float: left; margin-top: 20px;}
+
+#footer .right{float: right; padding-top: 30px; width: 350px;}   
+#footer .ttl{float: left; font-size: 14px;}
+#footer .txt_box{float: left; margin-top: 15px; width: 340px; height: 75px;
+                 border: 1px solid #ccc;}
+#footer .msg2{float: left; margin-top: 10px; font-size: 13px;}
+#footer .btn{float: left; margin: 10px 0 0 100px; font-size: 13px; border: 1px solid #ccc;
+              padding: 5px 15px;}
