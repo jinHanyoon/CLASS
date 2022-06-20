@@ -94,14 +94,16 @@
 #advice .ask_body li p{margin-top: 10px; font-size: 15px; 
                        font-weight: 900;}
 /* 변호사검색 */
-#search{background-color: turquoise;}
+#search{background-image: url(../images/search-img.jpg);}
 #search .search_left{
 width: 650px; height: 515px;
-background-color: #555;}
+
+}
 #search .search_input{background-color: aliceblue;
-width: 650px; height: 200px;}
+width: 650px; height: 200px;
+border-radius: 10px;}
 #search .search_input h4{
-        background-color: gold;
+        background-color: rgb(170, 168, 155); color: #fff;
         height: 30px;
         font-size: 15px;
         padding :15px 0 0 10px;    
@@ -109,6 +111,7 @@ width: 650px; height: 200px;}
 #search .search_input p{
 font-size: 14px;
 margin: 30px 0 0 10px;
+font-weight: 600;
 }
 #search .search_select{
         font-size: 15px;
@@ -128,46 +131,65 @@ margin: 30px 0 0 10px;
         background-color: orangered;
         color: white;
         border: 0px solid orangered;
+        border-radius: 5px;
 }
 
 #search .search_list{float: left;
-background-color: aqua; width: 650px;
+; width: 650px;
 height: 300px;
-margin-top: 10px;}
+margin-top: 10px;
+}
 #search .search_list >li{float: left;
 width: 210px;
 height: 280px;
 padding-top: 20px;
 font-size: 25px;
-
+border-radius: 5px;
 text-align: center;}
 #search .search_list >li:nth-child(1){
-        background-color: aliceblue;
+        background-image:url(../images/cal.png);
+        background-repeat: no-repeat;
+        background-position: center;
         margin-right: 10px;
         font-weight: 600;
+        background-color: rgba(30, 179, 75, 0.616);
+        color: white;
 }
 #search .search_list >li:nth-child(2){
-        background-color: aquamarine;
+        background-image: url(../images/su.png);
         font-weight: 600;
-        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgb(7, 131, 19);
+        color: white;
 }
 #search .search_list >li:nth-child(3){
-        background-color: beige;
+        background-image: url(../images/story.png);
         margin-left: 10px;
         font-weight: 600;
-
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgb(11, 83, 83);
+        color: white;
 }
-#search{float: left;}
+
 #search .search_right{
         background:url(../images/bg_banner_sect2.jpg);
         float: right;
-        width: 200px;
-        height: 300px;
+        width: 475px;
+        height: 515px; 
+        background-repeat: no-repeat;
+        border-radius: 5px 5px;
+        background-size: cover;
+       padding-left: 15px;
+      
+        
+     
 }
 
-#search .search_right img{
-        float: right;
-}
+        
+      
+
 
 /* 뉴스&지식 */
 #news{background:url(../images/bg_main_sect3.jpg) no-repeat 50% 0;}
@@ -227,7 +249,135 @@ text-align: center;}
 #news .news_info > li .checkbox{width:13px; height: 13px;  border:1px solid #ccc;
                                 vertical-align:text-bottom;}
 /* 커뮤니티 */
-#board{background-color:wheat;}
+#board{background-image: url(../images/comumainimg.jpg);
+       
+       }
+
+#board .board_left{
+        width: 1126px; height: 515px;     
+       
+        padding: 15px 0 0 20px;
+        float: left;
+        
+     
+}
+#board .help{
+        width: 720px;
+        height: 450px;
+        float: left;
+}
+
+
+
+#board .help h4{
+        font-size: 20px;
+        background-color: #555;
+        height: 45px;
+        padding: 20px 0 0 10px;
+        color: #fff;
+}
+#board .help h1{
+        font-size: 18px;
+        padding: 10px 0 0 10px;
+        color: black;
+}
+#board .help p{
+        font-size: 13px;
+        padding: 15px 0px 10px 0px;
+        color: rgb(94, 82, 82);
+        margin:0 10px 5px 10px
+}
+
+#board .help span{
+        color: red;
+        height: 20px;
+        margin: 10px 10px 5px 10px ;
+        
+      
+}
+
+#board .help li:nth-child(1){
+        width: 350px;
+        height: 240px;
+        border: 1px solid rgb(156, 145, 145);
+       float: left;
+       margin-right: 10px;
+       border-radius: 10px;
+       background-color: #fff;
+         
+}
+#board .help li:nth-child(2){
+        width: 350px;
+        height: 240px;
+        border: 1px solid rgb(156, 145, 145);
+        float: left;
+        border-radius: 10px;
+        background-color: #fff;
+}
+
+       
+
+#board .help li:nth-child(3){
+        width: 350px;
+        height: 240px;  
+        border: 1px solid rgb(156, 145, 145);
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+}
+#board .help li:nth-child(4){
+        width: 350px;
+        height: 240px;
+        border: 1px solid rgb(156, 145, 145);
+        float: left;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+}
+
+
+#board .board_right{ width: 400px;
+        height: 490px; 
+float: right;
+}
+
+#board .comu-img{
+        width: 400px;
+        height: 370px;
+         border-radius: 10px;
+        background-image: url(../images/comuimg2.jpg);
+        background-size: cover;
+}
+#board .board_right h1{
+        margin-top: 10px;
+       padding:10px 0 0 10px;
+        height: 96px;
+        color: rgb(3, 3, 3);
+        border: 1px solid rgb(156, 145, 145);
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+        background-color: #fff;
+}
+#board .board_right button{
+        background-color: #000;
+        position: absolute;
+        top: 65px;
+        left: 10px;
+        background-color: rgb(44, 145, 228);
+        color: white;
+        border-radius: 2px;
+        border:1px solid rgb(236, 224, 224);
+        
+        width: 150px;
+        height: 35px;
+        
+
+        
+}
 
 /* 하단 */
 #footer{float: left;
